@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char font[] = "Terminus:pixelsize=14:lcdfilter=lcddefault:hintstyle=hintnone:rgba=rgb:antialias=false:autohint=false";
-static int borderpx = 0;
+static int borderpx = 10;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -94,7 +94,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.90;
+float alpha = 0.70;
 
 
 /* Terminal colors (16 first used in escape sequence) */
